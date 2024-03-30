@@ -1,0 +1,6 @@
+We have created a webapp for our software company EcoBoss. It consists of :
+1. A home page where a user can learn about our company
+2. A services section to display services being offered
+3. A pricing page where potential clients can get quotations
+4. A contact form page
+5. A miscallenous page where the user can learn about members of the EcoBoss team.

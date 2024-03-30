@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@0,387;1,387&display=swap');
+
+/* colors */
+:root{
+    --color-primary: #05445e;
+    --color-secondary: #189ab4;
+    --color-tertiary: #75e6da;
+    --color-quaternary: #d4f1f4;
+    --color-quinternary: #868b8e;
+
+    --color-white: #ffffff;
+    --color-dark: #2c2b2b;
+}
+
+/* initial css */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    /* background image? */
+}
+
+
+/* styling nav bar */
+.nav{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav_logo_box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    margin-right: 2.9rem;
+}
+
+.nav_logo{
+    color: var(--color-white);
+    padding: 3rem;
+    font-weight: 990;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    color: var(--color-white);
+}
+
+.nav_item{
+    margin: 0rem, 0.7rem;
+}
+
+.nav_link{
+    font-size: 1.5rem;
+    color: var(--color-quinternary);
+    font-weight: bolder;
+    padding: 0.6rem;
+}
