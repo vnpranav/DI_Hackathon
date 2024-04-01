@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBoss Contact us</title>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+    <!-- header banner -->
+    <header class="header">
+        <!-- making navbar -->
+        <nav class="nav">
+            <div class="nav_logo_box"><a href="#" class="nav_logo">/ / /</a></div>
+                <ul class="nav_list">
+                    <!-- home page contains about section also -->
+                    <li class="nav_item"><a href="http://127.0.0.1:3000/website/index.html" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="http://127.0.0.1:3000/website/services.html" class="nav_link">Services</a></li>
+                    <li class="nav_item"><a href="http://127.0.0.1:3000/website/Pricing.html" class="nav_link">Pricing</a></li>
+                    <li class="nav_item"><a href="http://127.0.0.1:3000/website/Contact%20us" class="nav_link">Contacts </a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">More</a></li>
+                </ul>
+        </nav>
+        <div>
+            <img id="image3" src="images/contacts.JPG">
+        </div>
+        <!-- text banner -->
+        <div class="header_content">
+            <div class="container">
+                <div class="header_container">
+                    <h2 class="header_title">
+                        Our contacts
+                    </h2>
+                    <p class="header_p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nihil maiores, similique soluta, dignissimos, est labore alias in quaerat rerum tempora magnam at vel doloremque ratione? Repellat obcaecati iure minus?
+                    </p>
+                    <a href="#" class="header_btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+</body>
+</html>
