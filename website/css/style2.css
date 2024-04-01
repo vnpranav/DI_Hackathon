@@ -99,6 +99,7 @@ a{
 }
 
 .header_title{
+
     font-size: 4rem;
     color: var(--color-primary);
     margin-bottom: 2rem;
@@ -116,7 +117,7 @@ a{
     border-radius: 0.5rem;
 }
 
-#image {
+#image1 {
     width: 100%;
     height: auto;
   }
