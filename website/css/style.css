@@ -34,7 +34,7 @@ a{
 
 .header{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     /* background image? */
     background-image: url(../images/background.jpg);
     background-repeat: none;
@@ -48,6 +48,8 @@ a{
     height: 6rem;
     display: flex;
     align-items: center;
+    background-color: var(--color-white);
+    position: fixed;
 }
 
 .nav_logo_box{
@@ -65,8 +67,10 @@ a{
     font-weight: bolder;
 }
 .nav_list{
+    width: 100%;
     list-style: none;
     display: flex;
+    justify-content: space-around;
     color: var(--color-white);
 }
 
@@ -115,3 +119,32 @@ a{
     font-weight: bold;
     border-radius: 0.5rem;
 }
+
+/* styling about section */
+.about{
+    margin-top: 4 rem;
+    width: 100%;
+    display: flex;
+    background-color:var(--color-secondary);
+}
+
+#about_img{
+    width: 35%;
+}
+
+#about_img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_info{
+    padding: 2rem;
+    color: var(--color-white);
+}
+
+.about_larger_title{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+/* styling services section */

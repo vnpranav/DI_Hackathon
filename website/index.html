@@ -10,11 +10,12 @@
     <!-- header banner -->
     <header class="header">
         <!-- making navbar -->
-        <nav class="nav">
-            <div class="nav_logo_box"><a href="#" class="nav_logo">/ / /</a></div>
+        <nav id="home" class="nav">
+            <!-- find home favicon -->
+            <div class="nav_logo_box"><a href="#home" class="nav_logo">///</a></div>
                 <ul class="nav_list">
                     <!-- home page contains about section also -->
-                    <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Services</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Pricing</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Contact Us</a></li>
@@ -36,8 +37,32 @@
                 </div>
             </div>
         </div>
-
-
     </header>
+
+    <!-- insert a gap? -->
+    <div id="gap" style="height: 50px; background-color: white;"></div>
+
+    <!-- creating about section -->
+    <div id="about" class="about">
+        <div id="about_img">
+            <img src="images/about.jpg" alt="">
+        </div>
+        <div class="about_info">
+            <h3 class="about_title">Learn About us</h3>
+            <h1 class="about_larger_title">Designing software solutions</h1>
+            <p class="about_content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A necessitatibus esse aliquam nesciunt rerum molestias corporis soluta, sequi eos consectetur tempore magni architecto pariatur, impedit id, beatae fugiat harum ad?</p>
+
+        </div>
+    </div>
+
+    <!-- making services section -->
+    <section class="section">
+        <div class="container services_container">
+            <div id="services_top">
+                <div id="services_bars"></div>
+                <div id="services_text"></div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
