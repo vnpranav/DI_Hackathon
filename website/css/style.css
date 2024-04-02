@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@0,387;1,387&display=swap');
+
+/* colors */
+:root{
+    --color-primary: #05445e;
+    --color-secondary: #189ab4;
+    --color-tertiary: #75e6da;
+    --color-quaternary: #d4f1f4;
+    --color-quinternary: #868b8e;
+
+    --color-white: #ffffff;
+    --color-dark: #2c2b2b;
+}
+
+/* initial css */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 120vh;
+    /* background image? */
+    background-image: url(../images/background.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+/* styling nav bar */
+.nav{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-white);
+    position: fixed;
+}
+
+.nav_logo_box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    margin-right: 2.5rem;
+}
+
+.nav_logo{
+    color: var(--color-white);
+    padding: 3rem;
+    font-weight: bolder;
+}
+.nav_list{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-white);
+}
+
+.nav_item{
+    margin: 0.2rem, 1rem;
+}
+
+.nav_link{
+    font-size: 1.6rem;
+    color: var(--color-quinternary);
+    font-weight: bolder;
+    padding: 4.5rem;
+}
+
+/* styling banner text */
+.container{
+    /* max-width: 100rem; */
+    margin: 0 auto;
+    padding: 0rem 1.4rem;
+}
+
+.section{
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.header_content{
+  width: 100%;
+  height: calc(100vh - 8.5rem);
+  display: flex;
+  align-items: center;  
+}
+.header_container{
+    width: 60%;
+}
+
+.header_title{
+    font-size: 4rem;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+
+.header_p{
+    margin-bottom: 2rem;
+}
+
+.header_btn{
+    padding: 0.6rem 1.6rem;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+/* styling about section */
+.about{
+    margin-top: 4 rem;
+    width: 100%;
+    display: flex;
+    background-color:var(--color-secondary);
+}
+
+#about_img{
+    width: 35%;
+}
+
+#about_img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_info{
+    padding: 2rem;
+    color: var(--color-white);
+    margin-bottom: 3rem;
+}
+
+.larger_title{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+/* styling services section */
+.service_bar_wrapper{
+    margin-top: 2rem;
+}
+
+.service_bar_wrapper > p{
+    margin-bottom: .5rem;
+}
+
+.container.services_container{
+    margin: 0px;
+}
+
+/* designing progress bar */
+.progress-bar {
+    width: 100%;
+    height: 25px;
+    background-color: #f0f0f0;
+    border-radius: 5rem;
+}
+
+.progress {
+    height: 100%;
+    background-color: var(--color-primary);
+    width: 0;
+    transition: width 0.5s ease;
+    border-radius: 5rem;
+}
+
+#services_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+#services_bars{
+    width: 35%;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+.services_text{
+    width: 80%;
+    padding: 2rem;
+    text-align: center justify;
+    align-self: center;
+}
+
+/* styling icons and columns */
+.w-6{
+    width: 4rem;
+    height: 4rem;
+}
+
+.service_title{
+    margin: 1rem 0rem;
+}
+
+.services_row{
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    column-gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+.services_column{
+    text-align: center;
+}
+
+/* styling gallery */
+.gallery_container{
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    margin-bottom: 5rem;
+}
+
+.gallery_item{
+    width: 100%;
+    position: relative;
+}
+
+.gallery_text{
+    position: absolute;
+    color: var(--color-white);
+    font-weight: bolder;
+    top: 3rem;
+    left: 3rem;
+}
+
+.gallery_item >img{
+    width: 100%;
+    height: 50rem;
+    object-fit:fill
+}
+
+/* styling contact form */
+
+/* styling subscribe section */
+.subscribe{
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    /* background image?? */
+}
+
+.subscribe_container{
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-secondary);
+}
+
+.subscribe_headings{
+    /* width: 35%; */
+    background-color: var(--color-secondary);
+    color: var(--color-white)
+}
+
+.subscribe_form{
+    background-color: var(--color-secondary);
+}
