@@ -92,8 +92,8 @@ a{
   width: 100%;
   height: calc(100vh - 8.5rem);
   display: flex;
-  align-items: center;  
 }
+
 .header_container{
     width: 60%;
 }
