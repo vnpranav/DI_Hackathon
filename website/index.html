@@ -44,7 +44,7 @@
     <div id="gap" style="height: 50px; background-color: white;"></div>
 
     <!-- creating about section -->
-    <div id="about" class="about">
+    <div id="about" class="about hidden">
         <div id="about_img">
             <img src="images/about.jpg" alt="">
         </div>
@@ -56,7 +56,7 @@
     </div>
 
     <!-- making services section -->
-    <section id="services" class="section">
+    <section id="services" class="section hidden">
         <div class="container services_container">
             <div id="services_top">
                 <div id="services_bars">
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="services_row">
+            <div class="services_row hidden">
                 <div class="services_column">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
@@ -132,16 +132,16 @@
     </section>
 
     <!-- project section -->
-    <section id="projects" class="section">
+    <section id="projects" class="section hidden">
         <div class="gallery_container">
-            <div class="gallery_item">
+            <div class="gallery_item hidden">
                 <div class="gallery_text">
                     <h3 class="gallery_title">Title</h3>
                     <p class="gallery_info">text</p>
                 </div>
                     <img src="images/product1.jpeg" alt="" class="gallery_image">
             </div>
-            <div class="gallery_item">
+            <div class="gallery_item hidden">
                 <div class="gallery_text">
                     <h3 class="gallery_title">Title</h3>
                     <p class="gallery_info">text</p>
@@ -149,28 +149,28 @@
                     <img src="images/product2.jpeg" alt="" class="gallery_image">
             </div>
     
-            <div class="gallery_item">
+            <div class="gallery_item hidden">
                 <div class="gallery_text">
                     <h3 class="gallery_title">Title</h3>
                     <p class="gallery_info">text</p>
                 </div>
                     <img src="images/product3.jpeg" alt="" class="gallery_image">
             </div>
-            <div class="gallery_item">
+            <div class="gallery_item hidden">
                 <div class="gallery_text">
                     <h3 class="gallery_title">Title</h3>
                     <p class="gallery_info">text</p>
                 </div>
                     <img src="images/product4.jpeg" alt="" class="gallery_image">
             </div>
-            <div class="gallery_item">
+            <div class="gallery_item hidden">
                 <div class="gallery_text">
                     <h3 class="gallery_title">Title</h3>
                     <p class="gallery_info">text</p>
                 </div>
                     <img src="images/product5.jpg" alt="" class="gallery_image">
             </div>
-            <div class="gallery_item">
+            <div class="gallery_item hidden">
                 <div class="gallery_text">
                     <h3 class="gallery_title">Title</h3>
                     <p class="gallery_info">text</p>
@@ -181,7 +181,7 @@
     </section>
 
     <!-- contact section -->
-    <section class="section">
+    <section class="section hidden" id="contact">
         <div class="container">
             <div class="section_header">
                 <h3 id="smaller_title">Get in touch</h3>
@@ -231,7 +231,7 @@
     </section>
 
     <!-- subscribe section -->
-    <section class="section">
+    <section class="section hidden">
         <div class="subscribe">
             <div class="container subscribe_container">
                 <div class="subscribe_headings">
@@ -246,6 +246,6 @@
         </div>
     </section>
     
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 </body>
 </html>

@@ -15,6 +15,26 @@ function animateProgressBar(progressBar, duration) {
   
   const progressBar = document.querySelectorAll('.progress');
   progressBar.forEach(bar => {
-    animateProgressBar(bar, 500);
+    animateProgressBar(bar, 400);
   })
- // Example: animates to 30% in 2 seconds
+
+  // animation for hidden elements
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting){
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  });
+
+  const hiddenElements = document.querySelectorAll(".hidden");
+  hiddenElements.forEach((el) => observer.observe(el));
+
+// adding transition to gallery items
+const pictures = document.getElementsByClassName("gallery_item").length;
+for (let i = 0; i < pictures;i++){
+  let picture = document.querySelectorAll("gallery_item")[i];
+  picture.style.transitionDelay = `${100*(i+1)}ms`
+}
