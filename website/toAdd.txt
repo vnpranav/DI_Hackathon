@@ -1,4 +1,4 @@
 1. hover animation on navbar items (and also gallery items)
-2. scroll animation for smooth scrolling
+2. scroll animation for smooth scrolling (done)
 3. pricing section
 4. contact form validation using dom
