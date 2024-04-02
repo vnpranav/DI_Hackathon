@@ -88,6 +88,8 @@ a{
     padding: 0rem 1.4rem;
 }
 
+/* removed the align_items: center; */
+
 .header_content{
   width: 100%;
   height: calc(100vh - 8.5rem);
