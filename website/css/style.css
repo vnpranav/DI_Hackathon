@@ -107,7 +107,7 @@ a{
     color: var(--color-secondary);
     text-decoration: underline solid var(--color-secondary) 3px;
     text-underline-offset: 0.5rem;
-    transition: 0.5s;
+    transition: all 0.5s ease;
 }
 
 /* styling banner text */
@@ -259,6 +259,7 @@ a{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
     margin-bottom: 5rem;
+    gap: 0.5rem;
 }
 
 .gallery_item{
@@ -272,12 +273,33 @@ a{
     font-weight: bolder;
     top: 3rem;
     left: 3rem;
+    opacity: 0;
 }
 
-.gallery_item >img{
+
+.gallery_image{
     width: 100%;
-    height: 50rem;
+    height: 48rem;
+    filter: brightness(100%);
     object-fit:fill
+}
+
+.gallery_item:hover{
+    filter: brightness(70%);
+    transition: all 0.7s ease;
+}
+
+.gallery_item:hover > .gallery_text{
+    opacity: 1;
+    z-index: 1;
+    filter: brightness(100%);
+}
+
+.gallery_item:hover > .gallery_text >.gallery_title, .gallery_info{
+    opacity: 1;
+    z-index: 1;
+    filter: brightness(110%);
+    color: var(--color-white);
 }
 
 /* styling contact form */
