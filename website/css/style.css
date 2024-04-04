@@ -75,7 +75,7 @@ a{
     align-items: center;
     background-color: var(--color-primary);
     color: var(--color-white);
-    margin-right: 2.5rem;
+    margin-right: 1rem;
 }
 
 .nav_logo{
@@ -87,19 +87,18 @@ a{
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: var(--color-white);
 }
 
 .nav_item{
-    margin: 0.2rem, 1rem;
+    margin: 0rem, 1rem;
 }
 
 .nav_link{
     font-size: 1.6rem;
     color: var(--color-quinternary);
     font-weight: bolder;
-    padding: 4.5rem;
 }
 
 /* nav bar hover animation */
