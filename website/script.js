@@ -1,3 +1,9 @@
+// onclick function for some nav links
+function comingSoon(){
+  alert("Coming soon!");
+}
+
+
 // code for progress bar
 function animateProgressBar(progressBar, duration) {
     let progress = 0;
