@@ -18,3 +18,32 @@ function animateProgressBar(progressBar, duration) {
     animateProgressBar(bar, 500);
   })
  // Example: animates to 30% in 2 seconds
+
+ document.addEventListener("DOMContentLoaded", function () {
+  // Get the contact form
+  const contactForm = document.getElementById("contactForm");
+
+  // Add event listener for form submission
+  contactForm.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent default form submission
+
+      // Get form data
+      const formData = new FormData(contactForm);
+
+      // You can add more sophisticated validation here if needed
+      if (!formData.get("name") || !formData.get("email") || !formData.get("message")) {
+          alert("Please fill in all the required fields.");
+          return;
+      }
+
+      // Send the form data to the server or perform any other action
+      console.log({
+          name: formData.get("name"),
+          email: formData.get("email"),
+          message: formData.get("message")
+      });
+
+      // Clear the form after submission
+      contactForm.reset();
+  });
+});

@@ -282,3 +282,68 @@ a{
 .subscribe_form{
     background-color: var(--color-secondary);
 }
+
+/* Contact form styles */
+.contact_container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact_container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Add styling for form validation error messages */
+input:invalid,
+textarea:invalid {
+    border-color: #0505059d;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+    border-color: #dc3545;
+}
+
+/* Optional: Style for success message */
+.success-message {
+    color: green;
+    font-weight: bold;
+}
