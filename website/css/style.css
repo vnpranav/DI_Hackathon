@@ -252,6 +252,11 @@ a{
 }
 
 /* styling gallery */
+#projects>.larger_title{
+    color: var(--color-quinternary);
+    text-align: center;
+}
+
 .gallery_container{
     margin-top: 3rem;
     width: 100%;
@@ -301,6 +306,42 @@ a{
     color: var(--color-white);
 }
 
+/* styling pricing section */
+#pricing{
+    width: 100%;
+    background-color: var(--color-white);
+}
+
+#pricing>.larger_title{
+    text-align: center;
+    color: var(--color-quinternary);
+}
+
+.pricing_row{
+    width: 90%;
+    max-width: 110rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100%;
+    gap: 2.5rem;
+}
+
+.pricing_col{
+    background-color: var(--color-primary);
+    padding: 10% 15%;
+    border-radius: 1rem;
+    color: var(--color-white);
+    text-align: center;
+    grid-row:span 1;
+    grid-column: span 1;
+}
+
+.pricing_col>ul{
+    list-style: none;
+}
+
+
 /* styling contact form */
 .section_header{
     width: 100%;
@@ -337,6 +378,8 @@ a{
 
 #message{
     width: 85%;
+    border-radius: 2.5rem;
+    padding: 1rem;
     /* border and outline?? */
     margin-bottom: 1.5rem;
 }
@@ -381,6 +424,14 @@ a{
 
 .subscribe_form{
     background-color: var(--color-secondary);
+}
+
+#subscribe_email{
+    width: 40rem;
+    height: 3rem;
+    padding: 1.7rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
 }
 
 button[type="submit"] {

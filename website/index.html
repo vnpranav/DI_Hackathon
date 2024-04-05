@@ -130,9 +130,11 @@
             </div>
         </div>
     </section>
+    <br>
 
-    <!-- project section -->
+    <!-- gallery section -->
     <section id="projects" class="section hidden">
+        <h2 class="larger_title">Our projects</h2>
         <div class="gallery_container">
             <div class="gallery_item hidden">
                 <div class="gallery_text">
@@ -180,6 +182,50 @@
         </div>
     </section>
 
+    <!-- pricing section -->
+    <section class="section hidden" id="pricing">
+        <h2 class="larger_title">Our fees</h2>
+        <div class="pricing_row">
+            <div class="pricing_col">
+                <p class="smaller_title">Static Webpage</p>
+                <h3>400$</h3>
+                <br>
+                <ul>
+                    <li>1 Website</li>
+                    <li>Basic Web Builder</li>
+                    <li>SSL Certificate</li>
+                    <li>Free maintainace</li>
+                    <li>No hosting fees</li>
+                </ul>
+            </div>
+
+            <div class="pricing_col">
+                <p class="smaller_title">Responsive WebApp</p>
+                <h3>600$</h3>
+                <br>
+                <ul>
+                    <li>1 Website</li>
+                    <li>Frameworks regularly updated</li>
+                    <li>SSL Certificate</li>
+                    <li>Free maintainace</li>
+                    <li>SQL maintainace</li>
+                </ul>
+            </div>
+
+            <div class="pricing_col">
+                <p class="smaller_title">UI/UX Design</p>
+                <h3>300$</h3>
+                <br>
+                <br>
+                <ul>
+                    <li>Prototypes included</li>
+                    <li>Rapid development</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
     <!-- contact section -->
     <section class="section hidden" id="contact">
         <div class="container">
@@ -194,7 +240,7 @@
                             <input type="text" name="name" class="contact_input" placeholder="Enter full name" required>
                             <input type="email" name="email" class="contact_input" placeholder="Enter email address" required>
                             <input type="text" name="subject" class="contact_input" placeholder="Enter Subject Matter">
-                            <input type="number" name="phone" class="contact_input" placeholder="Phone number">
+                            <input type="tel" name="phone" class="contact_input" placeholder="Phone number">
                         </div>
                         <div class="contact_area">
                             <textarea class="contact_message" name="message" id="message" cols="30" rows="10" placeholder="Write your message here"></textarea>
@@ -239,7 +285,7 @@
                     <h2>Subscribe to our newsletter!</h2>
                 </div>
                 <form class="subscribe_form" method="post">
-                    <input type="email" name="subscribe_form_input" id="" placeholder="Enter email address" required>
+                    <input type="email" name="subscribe_form_input" id="subscribe_email" placeholder="Enter email address" required>
                     <button id="subscribe_button" type="submit">Subscribe</button>
                 </form>
             </div>

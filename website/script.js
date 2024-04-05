@@ -42,7 +42,7 @@ function animateProgressBar(progressBar, duration) {
 const pictures = document.getElementsByClassName("gallery_item").length;
 for (let i = 0; i < pictures;i++){
   let picture = document.querySelectorAll("gallery_item")[i];
-  picture.style.transitionDelay = `${100*(i+1)}ms`
+  picture.style.transitionDelay = `${50*(i+1)}ms`
 }
 
 // getting form data
