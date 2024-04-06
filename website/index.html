@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBoss Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header banner -->
+    <header class="header">
+        <!-- making navbar -->
+        <nav class="nav">
+            <!-- find home favicon !-->
+            <div class="nav_logo_box"><a href="index.html" class="nav_logo">///</a></div>
+                <ul class="nav_list">
+                    <!-- home page contains about section also -->
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#pricing" class="nav_link">Pricing</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact Us</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link" onclick="comingSoon()">More</a></li>
+                </ul>
+        </nav>
+
+        <!-- text banner -->
+        <div class="header_content" id="home">
+            <div class="container">
+                <div class="header_container">
+                    <h2 class="header_title">
+                        Bringing mordern solutions to all your problems!
+                    </h2>
+                    <p class="header_p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nihil maiores, similique soluta, dignissimos, est labore alias in quaerat rerum tempora magnam at vel doloremque ratione? Repellat obcaecati iure minus?
+                    </p>
+                    <a href="#" class="header_btn" onclick="comingSoon()">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- insert a gap? -->
+    <div id="gap" style="height: 50px; background-color: white;"></div>
+
+    <!-- creating about section -->
+    <div id="about" class="about hidden">
+        <div id="about_img">
+            <img src="images/about.jpg" alt="">
+        </div>
+        <div class="about_info">
+            <h3 class="smaller_title">Learn About us</h3>
+            <h1 class="larger_title">Designing software solutions</h1>
+            <p class="about_content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A necessitatibus esse aliquam nesciunt rerum molestias corporis soluta, sequi eos consectetur tempore magni architecto pariatur, impedit id, beatae fugiat harum ad?</p>
+        </div>
+    </div>
+
+    <!-- making services section -->
+    <section id="services" class="section hidden">
+        <div class="container services_container">
+            <div id="services_top">
+                <div id="services_bars">
+                    <h3 class="smaller_title">Our Services</h3>
+                    <h1 class="larger_title">Services offfered</h1>
+                    <div class="services_bars_container">
+                        <!-- making the progress bars -->
+                        <div class="service_bar_wrapper">
+                            <p>WEB DESIGN &nbsp; &nbsp; 90%</p>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+    
+                            <div class="service_bar_wrapper">
+                                <p>APP DEVELOPMENT &nbsp; &nbsp; 80%</p>
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+    
+                            <div class="service_bar_wrapper">
+                                <p>CYBERSECURITY&nbsp; &nbsp; 85%</p>
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services_text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quos voluptatum architecto possimus numquam fuga excepturi dignissimos magni, debitis ex, iusto voluptates?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum blanditiis quis consequatur commodi, eaque praesentium voluptas nesciunt. Neque, odit vitae eius doloribus delectus quaerat atque aperiam iste, eaque laudantium at? Error quisquam ullam distinctio, soluta mollitia, asperiores ea id nihil officiis dolore, unde delectus illo! At aspernatur, molestias eum magni omnis atque, optio maxime repellat soluta iste dolor debitis animi.</p>
+                </div>
+            </div>
+
+            <div class="services_row hidden">
+                <div class="services_column">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                      </svg>   
+                      <h3 class="service_title">Bright Ideas</h3> 
+                      <p class="service_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, autem voluptates illum nihil fuga deleniti ad vitae beatae, at velit est sequi culpa ipsa suscipit iure, commodi enim vel a?</p>                  
+                </div>
+
+                <div class="services_column">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 0 0-8.862 12.872M12.75 3.031a9 9 0 0 1 6.69 14.036m0 0-.177-.529A2.25 2.25 0 0 0 17.128 15H16.5l-.324-.324a1.453 1.453 0 0 0-2.328.377l-.036.073a1.586 1.586 0 0 1-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 0 1-5.276 3.67m0 0a9 9 0 0 1-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
+                      </svg>                      
+                      <h3 class="service_title">WorldWide</h3> 
+                      <p class="service_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, autem voluptates illum nihil fuga deleniti ad vitae beatae, at velit est sequi culpa ipsa suscipit iure, commodi enim vel a?</p>                  
+                </div>
+
+                <div class="services_column">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                      </svg>
+                         
+                      <h3 class="service_title">Affordable</h3> 
+                      <p class="service_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, autem voluptates illum nihil fuga deleniti ad vitae beatae, at velit est sequi culpa ipsa suscipit iure, commodi enim vel a?</p>                  
+                </div>
+
+                <div class="services_column"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                      </svg>
+                       
+                  <h3 class="service_title">Fast Growing</h3> 
+                  <p class="service_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, autem voluptates illum nihil fuga deleniti ad vitae beatae, at velit est sequi culpa ipsa suscipit iure, commodi enim vel a?</p>                 
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- gallery section -->
+    <section id="projects" class="section hidden">
+        <h2 class="larger_title">Our projects</h2>
+        <div class="gallery_container">
+            <div class="gallery_item hidden">
+                <div class="gallery_text">
+                    <h3 class="gallery_title">Data analysis</h3><br>
+                    <p class="gallery_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minima deserunt fugiat eius officiis eum, reprehenderit nesciunt distinctio qui provident sequi inventore in dicta dolores illum possimus quae molestiae veniam animi alias necessitatibus delectus eaque voluptatibus. Fugit vero earum quas laborum ipsum libero aspernatur voluptas sapiente quae suscipit tenetur distinctio, et esse voluptatum delectus accusantium, eaque dignissimos mollitia! Sequi, illo?</p>
+                </div>
+                    <img src="images/product1.jpeg" alt="" class="gallery_image">
+            </div>
+            <div class="gallery_item hidden">
+                <div class="gallery_text">
+                    <h3 class="gallery_title">Back-End Development</h3><br>
+                    <p class="gallery_info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero explicabo quibusdam, nihil, suscipit molestias corporis odio voluptatem et necessitatibus labore deleniti aperiam quo consequuntur nostrum nisi autem voluptate debitis. Ipsa culpa ratione quo deleniti, accusantium aliquid ea, sapiente quos officiis tenetur blanditiis? Facilis, dolor at autem officia deserunt sed officiis iste assumenda eum quia iure atque quisquam modi perferendis. Necessitatibus?</p>
+                </div>
+                    <img src="images/product2.jpeg" alt="" class="gallery_image">
+            </div>
+    
+            <div class="gallery_item hidden">
+                <div class="gallery_text">
+                    <h3 class="gallery_title">Embedded programming</h3><br>
+                    <p class="gallery_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ad quibusdam voluptates non, impedit molestias eos dolorum voluptatem atque minus sapiente excepturi nulla saepe, illo ullam omnis placeat libero beatae quidem iure? Ducimus temporibus culpa, delectus cupiditate laborum, doloribus atque fuga autem maxime ratione aperiam ea repellat exercitationem fugiat. Molestiae labore eveniet quod! Vel, dolores voluptatibus! Maiores blanditiis velit adipisci.</p>
+                </div>
+                    <img src="images/product3.jpeg" alt="" class="gallery_image">
+            </div>
+            <div class="gallery_item hidden">
+                <div class="gallery_text">
+                    <h3 class="gallery_title">Cybersecurity</h3><br>
+                    <p class="gallery_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis tenetur nemo quo iste corporis ad minima quibusdam neque repellendus minus rem quae odit, perferendis delectus eum eaque voluptates ipsa modi aperiam. Ut velit accusamus numquam sit atque ipsum ullam laborum deserunt voluptas tempore. Cupiditate modi ducimus magni id sapiente?</p>
+                </div>
+                    <img src="images/product4.jpeg" alt="" class="gallery_image">
+            </div>
+            <div class="gallery_item hidden">
+                <div class="gallery_text">
+                    <h3 class="gallery_title">Cloud Services</h3><br>
+                    <p class="gallery_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sint possimus modi beatae nihil, aspernatur neque suscipit nam, iure ipsam nobis quibusdam inventore. Temporibus, ullam odit iusto qui harum porro neque nostrum nihil soluta, magni expedita eligendi ex numquam illum dignissimos, ut quibusdam modi. Quas reiciendis veritatis molestiae repudiandae necessitatibus modi impedit dolorum illum repellat totam voluptate ipsa vel deserunt saepe ullam accusantium, quasi, voluptas deleniti voluptatibus. Odio, tempore mollitia!</p>
+                </div>
+                    <img src="images/product5.jpg" alt="" class="gallery_image">
+            </div>
+            <div class="gallery_item hidden">
+                <div class="gallery_text">
+                    <h3 class="gallery_title">Server maintainace</h3><br>
+                    <p class="gallery_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptate ipsam iste accusantium debitis. Possimus, dolores doloremque! Voluptate eius nesciunt rerum distinctio et vitae error facilis totam rem, repellendus accusantium dolor modi quos molestias ex impedit placeat ducimus dignissimos repellat soluta magnam commodi reiciendis. Dolor perspiciatis corrupti inventore sunt natus, architecto praesentium asperiores ducimus quis libero illum officia nobis quas?</p>
+                </div>
+                    <img src="images/product6.jpeg" alt="" class="gallery_image">
+            </div>
+        </div>
+    </section>
+
+    <!-- pricing section -->
+    <section class="section hidden" id="pricing">
+        <h2 class="larger_title">Our fees</h2>
+        <div class="pricing_row">
+            <div class="pricing_col">
+                <p class="smaller_title">Static Webpage</p>
+                <h3>400$</h3>
+                <br>
+                <ul>
+                    <li>1 Website</li>
+                    <li>Basic Web Builder</li>
+                    <li>SSL Certificate</li>
+                    <li>Free maintainace</li>
+                    <li>No hosting fees</li>
+                </ul>
+            </div>
+
+            <div class="pricing_col">
+                <p class="smaller_title">Responsive WebApp</p>
+                <h3>600$</h3>
+                <br>
+                <ul>
+                    <li>1 Website</li>
+                    <li>Frameworks regularly updated</li>
+                    <li>SSL Certificate</li>
+                    <li>Free maintainace</li>
+                    <li>SQL maintainace</li>
+                </ul>
+            </div>
+
+            <div class="pricing_col">
+                <p class="smaller_title">UI/UX Design</p>
+                <h3>300$</h3>
+                <br>
+                <br>
+                <ul>
+                    <li>Prototypes included</li>
+                    <li>Rapid development</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section -->
+    <section class="section hidden" id="contact">
+        <div class="container">
+            <div class="section_header">
+                <h3 id="smaller_title">Get in touch</h3>
+                <h2 id="larger_subtitle">Contact us</h2>
+            </div>
+            <div class="contact_container">
+                <div class="contact_form">
+                    <form class="contact" method="post">
+                        <div class="contact_fields">
+                            <input type="text" name="name" class="contact_input" placeholder="Enter full name" required>
+                            <input type="email" name="email" class="contact_input" placeholder="Enter email address" required>
+                            <input type="text" name="subject" class="contact_input" placeholder="Enter Subject Matter">
+                            <input type="tel" name="phone" class="contact_input" placeholder="Phone number">
+                        </div>
+                        <div class="contact_area">
+                            <textarea class="contact_message" name="message" id="message" cols="30" rows="10" placeholder="Write your message here"></textarea>
+                            <br>
+                            <div id="btn_container">
+                                <button type="submit" class="contact_btn">Send</button>
+                                <button type="reset" class="contact_btn">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact_details">
+                    <div class="contact_details_section">
+                        <h4>Address</h4>
+                        <p>
+                            Marie Jeannie, Rose Belle, Grand-Port, Mauritius
+                        </p>
+                    </div>
+                    <div class="contact_details_section">
+                        <h4>Telephone</h4>
+                        <p>
+                            +230-5758-8170
+                        </p>
+                    </div>
+                    <div class="contact_details_section">
+                        <h4>Email</h4>
+                        <p>
+                            v.pranav.n@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe section -->
+    <section class="section hidden">
+        <div class="subscribe">
+            <div class="container subscribe_container">
+                <div class="subscribe_headings">
+                    <h3>We don't spam!</h3>
+                    <h2>Subscribe to our newsletter!</h2>
+                </div>
+                <form class="subscribe_form" method="post">
+                    <input type="email" name="subscribe_form_input" id="subscribe_email" placeholder="Enter email address" required>
+                    <button id="subscribe_button" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
