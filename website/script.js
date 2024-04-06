@@ -7,16 +7,16 @@ function comingSoon(){
 // code for progress bar
 function animateProgressBar(progressBar, duration) {
     let progress = 0;
-    const increment = 1 / duration * 100; // Adjust the increment value for desired smoothness
+    const increment = (1 / duration) * 100; // Adjust the increment value for desired smoothness
   
     const interval = setInterval(() => {
       progress += increment;
       progressBar.style.width = `${progress}%`;
   
-      if (progress >= 90) {
+      if (progress >= 30) {
         clearInterval(interval);
       }
-    }, 10); // Adjust the interval duration for desired speed
+    }, 8); // Adjust the interval duration for desired speed
   }
   
   const progressBar = document.querySelectorAll('.progress');

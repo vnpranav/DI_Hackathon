@@ -54,7 +54,8 @@ a{
     /* background image? */
     background-image: url(../images/background.jpg);
     background-repeat: none;
-    background-size: cover;
+    background-size: 100% 100%;
+    /* cover does not let it resize */
 }
 
 
