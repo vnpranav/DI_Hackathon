@@ -309,8 +309,10 @@ a{
 
 /* styling pricing section */
 #pricing{
+    margin-top: 2rem;
     width: 100%;
     background-color: var(--color-white);
+    margin-bottom: 2rem;
 }
 
 #pricing>.larger_title{
