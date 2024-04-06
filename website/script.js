@@ -13,7 +13,7 @@ function animateProgressBar(progressBar, duration) {
       progress += increment;
       progressBar.style.width = `${progress}%`;
   
-      if (progress >= 30) {
+      if (progress >= 90) {
         clearInterval(interval);
       }
     }, 8); // Adjust the interval duration for desired speed
