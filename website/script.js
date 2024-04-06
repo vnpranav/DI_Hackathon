@@ -16,7 +16,7 @@ function animateProgressBar(progressBar, duration) {
       if (progress >= 90) {
         clearInterval(interval);
       }
-    }, 8); // Adjust the interval duration for desired speed
+    }, 10); // Adjust the interval duration for desired speed
   }
   
   const progressBar = document.querySelectorAll('.progress');
